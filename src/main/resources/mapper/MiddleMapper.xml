@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.company.project.dao.MiddleMapper">
+  <resultMap id="BaseResultMap" type="com.company.project.model.Middle">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="middle_id" jdbcType="INTEGER" property="middleId" />
+    <result column="stu_id" jdbcType="INTEGER" property="stuId" />
+    <result column="cou_id" jdbcType="INTEGER" property="couId" />
+    <result column="score" jdbcType="VARCHAR" property="score" />
+    <result column="pass" jdbcType="INTEGER" property="pass" />
+  </resultMap>
+</mapper>
